@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
+      .flex-container {
+        display: flex;
+        align-items: stretch;
+      }
+
+      .flex-container > div {
+        background-color: darkblue;
+        text-align: left;
+        color: #ccc;
+        width: 400px;
+        padding: 15px;
+        margin: 0px;
+        line-height: 20px;
+        font-size: 15px;
+      }
+      .fa {
+        text-align: right;
+        height: 10px;
+        padding: 10px;
+        font-size: 18px;
+        text-decoration: none;
+      }
+
+      .fa:hover {
+        color: violet;
+      }
+
+      .fa-facebook {
+        color: white;
+      }
+
+      .fa-twitter {
+        color: white;
+      }
+      .fa-instagram {
+        color: white;
+      }
+      .fa-pinterest {
+        color: white;
+      }
+      .flex-container1 {
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+      }
+      .flex-container1 > div {
+        width: 600px;
+        margin: 10px;
+        text-align: center;
+        line-height: 500px;
+        font-size: 30px;
+      }
+      .flex-container1 img {
+        width: 1262px;
+        height: auto;
+      }
+      .flex-container1 .btn {
+        position: absolute;
+        top: 90%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-10%, -10%);
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .flex-container1 .btn:hover {
+        background-color: black;
+      }
+      .flex-container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        background-color: white;
+      }
+      .flex-container2 > div {
+        width: 1000px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+      }
+      p.ex {
+        color: blue;
+      }
+      .flex-container3 {
+        display: flex;
+      }
+      .flex-container3 > div {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        background-color: #f1f1f1;
+        margin: 30px;
+        padding: 50px;
+        font-size: 30px;
+      }
+      .flex-container4 {
+        display: flex;
+        justify-content: center;
+      }
+
+      .flex-container4 > div {
+        width: 650px;
+        height: 200px;
+        margin: 10px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 15px;
+      }
+      .flex-container5 {
+        display: flex;
+        justify-content: center;
+      }
+      .flex-container5 > div {
+        margin: 30px;
+        line-height: 50px;
+        font-size: 15px;
+      }
+      .flex-container5 .btn {
+        left: 10px;
+        top: -70px;
+        position: relative;
+        background-color: blue;
+        border: none;
+        font-size: 15px;
+        color: white;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        cursor: pointer;
+      }
+      .flex-container5 .btn:hover {
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flex-container">
+      <div style="flex-basis: 1250px">
+        <br />
+
+        Welcome to IT Solutions & Services WordPress Theme
+      </div>
+      <div>
+        <i class="fa fa-envelope" style="color: violet"></i> bala@company.com
+        <br />
+        <i class="fa fa-clock-o" style="color: violet"></i> Mon - Sat: 8.00 am -
+        7.00 pm
+      </div>
+      <div>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+    <div class="flex-container1">
+      <img
+        src="https://media.istockphoto.com/id/1398473177/photo/questionnaire-with-checkboxes-filling-survey-form-online-answer-questions.jpg?b=1&s=170667a&w=0&k=20&c=Ld-E8ElmNgDKGxFBVyVFqqBDG6byHF98amsRMYFEedk="
+        width="1250px"
+        height="200px"
+      />
+      <button class="btn">Learn more</button>
+    </div>
+    <div class="flex-container2">
+      <div>
+          <p class="ex">- What We’re Offering to Our Clients</p>
+        <h1>
+          Real Time Dealing in all<br />
+          Professional<br />
+          IT Solutions & Services
+        </h1>
+      </div>
+    </div>
+    <div class="flex-container3">
+      <div><b>Data Analysis</b></div>
+      <div><b>Product Development</b></div>
+      <div><b>Digital Marketing</b></div>
+      <div><b>UI/UX Designing</b></div>
+    </div>
+
+    <div class="flex-container4">
+      <div>
+        We Provided perfect IT solution for millions of partners over the world.
+        Our expertise spans all major technologies and platforms,and advances to
+        innovative technology trends. We have wide-ranging expertise in all the
+        areas needed for reliable software development.
+      </div>
+    </div>
+    <div class="flex-container5">
+      <button class="btn">Learn more</button>
+    </div>
+  </body>
+</html>
