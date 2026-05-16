@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        overflow-x: hidden;
+        font-family: Arial, sans-serif;
+      }
+
+      /* ================= HEADER ================= */
+
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: darkblue;
+        color: white;
+        width: 100%;
+      }
+
+      .flex-container > div {
+        padding: 15px;
+        font-size: 15px;
+      }
+
+      .fa {
+        padding: 10px;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+      }
+
+      .fa:hover {
+        color: violet;
+      }
+
+      /* ================= HERO SECTION ================= */
+
+      .flex-container1 {
+        position: relative;
+        width: 100%;
+      }
+
+      .flex-container1 img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .flex-container1 .btn {
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .flex-container1 .btn:hover {
+        background-color: black;
+      }
+
+      /* ================= TITLE SECTION ================= */
+
+      .flex-container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 20px;
+        background-color: white;
+        text-align: center;
+      }
+
+      .flex-container2 > div {
+        max-width: 800px;
+        line-height: 45px;
+      }
+
+      .flex-container2 h1 {
+        font-size: 42px;
+      }
+
+      p.ex {
+        color: blue;
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+
+      /* ================= SERVICES ================= */
+
+      .flex-container3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .flex-container3 > div {
+        flex: 1 1 220px;
+        max-width: 250px;
+        min-height: 180px;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding: 40px 20px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+      }
+
+      /* ================= DESCRIPTION ================= */
+
+      .flex-container4 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .flex-container4 > div {
+        max-width: 900px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 17px;
+      }
+
+      /* ================= BUTTON SECTION ================= */
+
+      .flex-container5 {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+      }
+
+      .flex-container5 .btn {
+        background-color: blue;
+        border: none;
+        font-size: 15px;
+        color: white;
+        padding: 12px 25px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .flex-container5 .btn:hover {
+        background-color: black;
+      }
+
+      /* ================= MOBILE RESPONSIVE ================= */
+
+      @media (max-width: 768px) {
+        .flex-container {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .flex-container1 .btn {
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 5%;
+        }
+
+        .flex-container2 h1 {
+          font-size: 28px;
+          line-height: 40px;
+        }
+
+        .flex-container3 > div {
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- ================= HEADER ================= -->
+
+    <div class="flex-container">
+
+      <div>
+        Welcome to IT Solutions & Services WordPress Theme
+      </div>
+
+      <div>
+        <i class="fa fa-envelope" style="color: violet"></i>
+        bala@company.com
+        <br />
+
+        <i class="fa fa-clock-o" style="color: violet"></i>
+        Mon - Sat: 8.00 am - 7.00 pm
+      </div>
+
+      <div>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+
+    </div>
+
+    <!-- ================= HERO IMAGE ================= -->
+
+    <div class="flex-container1">
+
+      <img
+        src="https://media.istockphoto.com/id/1398473177/photo/questionnaire-with-checkboxes-filling-survey-form-online-answer-questions.jpg?b=1&s=170667a&w=0&k=20&c=Ld-E8ElmNgDKGxFBVyVFqqBDG6byHF98amsRMYFEedk="
+        alt="IT Services"
+      />
+
+      <button class="btn">Learn More</button>
+
+    </div>
+
+    <!-- ================= TITLE SECTION ================= -->
+
+    <div class="flex-container2">
+
+      <div>
+
+        <p class="ex">
+          - What We’re Offering to Our Clients
+        </p>
+
+        <h1>
+          Real Time Dealing in all
+          Professional
+          IT Solutions & Services
+        </h1>
+
+      </div>
+
+    </div>
+
+    <!-- ================= SERVICES ================= -->
+
+    <div class="flex-container3">
+
+      <div>
+        <b>Data Analysis</b>
+      </div>
+
+      <div>
+        <b>Product Development</b>
+      </div>
+
+      <div>
+        <b>Digital Marketing</b>
+      </div>
+
+      <div>
+        <b>UI/UX Designing</b>
+      </div>
+
+    </div>
+
+    <!-- ================= DESCRIPTION ================= -->
+
+    <div class="flex-container4">
+
+      <div>
+
+        We Provided perfect IT solution for millions of partners over the world.
+        Our expertise spans all major technologies and platforms, and advances
+        to innovative technology trends. We have wide-ranging expertise in all
+        the areas needed for reliable software development.
+
+      </div>
+
+    </div>
+
+    <!-- ================= BUTTON ================= -->
+
+    <div class="flex-container5">
+
+      <button class="btn">
+        Learn More
+      </button>
+
+    </div>
+
+  </body>
+</html>
